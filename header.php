@@ -59,6 +59,7 @@
           <div class="nav-collapse">
             <ul class="nav pull-left">
               <?php if (!is_front_page()): ?>
+              <a class="brand" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/xonotic_icon.png"></a>
               <li><a href="<?php bloginfo('url'); ?>" title="home"><i class="icon-home"></i> Home</a></li>
               <?php endif; ?>
               <li class="<!--active -->"><a href="<?php bloginfo('url'); ?>/download" title="get the game"><i class="icon-download"></i> Download</a></li>
