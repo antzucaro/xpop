@@ -20,7 +20,9 @@
     ================================================== -->
     <link href="<?php bloginfo('stylesheet_directory'); ?>/style.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_directory'); ?>/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Font Awesome - http://fortawesome.github.com/Font-Awesome -->
     <link href="<?php bloginfo('stylesheet_directory'); ?>/font-awesome.css" rel="stylesheet">
+
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
