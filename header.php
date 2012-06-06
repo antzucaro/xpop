@@ -53,11 +53,6 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <!-- <div class="nav-collapse">
-            <ul class="nav pull-left">
-              li><h3 class="tagline">Xonotic - The Free and Fast First Person Shooter</h3></li> 
-            </ul>
-          </div> -->
           <div class="nav-collapse">
             <ul class="nav pull-left">
               <?php if (!is_front_page()): ?>
