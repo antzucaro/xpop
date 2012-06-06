@@ -9,7 +9,7 @@
 
     <!-- FOOTER
     ================================================== -->
-    <div class="container" id="footer">
+    <div class="container xonborder" id="footer">
       <div class="row">
         <div class="span2 br">
           <h4>Home</h4>
@@ -50,6 +50,15 @@
             <li><a href="http://forums.xonotic.org/search.php" title="search the forums">Search</a></li>
           <ul>
         </div>
+
+        <div class="span2">
+          <h4>Meta</h4>
+          <ul>
+          <li><a href="<?php bloginfo('url'); ?>/wp-admin" title="log in">Login</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/site-map" title="go to the site map">Site map</a></li>
+          <ul>
+        </div>
+
       </div> <!-- /row -->
     </div>
 

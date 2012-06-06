@@ -5019,11 +5019,11 @@ a.badge:hover {
   padding-bottom: 10px;
 }
 #footer {
-    border-top: 1px solid #222;
+    border-top: 1px solid #111;
     padding-top: 15px;
 }
 #footer .br {
-    border-right: 1px dashed #111;
+    border-right: 1px solid #111;
 }
 .tags {
   margin-bottom: 25px; 
