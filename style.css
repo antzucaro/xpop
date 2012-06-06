@@ -558,7 +558,7 @@ ol ul {
 }
 
 ul {
-  list-style: disc;
+  list-style: square;
 }
 
 ol {
@@ -5017,6 +5017,13 @@ a.badge:hover {
   border-bottom: 2px solid gray;
   margin-bottom: 15px;
   padding-bottom: 10px;
+}
+#footer {
+    border-top: 1px solid #222;
+    padding-top: 15px;
+}
+#footer .br {
+    border-right: 1px dashed #111;
 }
 .tags {
   margin-bottom: 25px; 
