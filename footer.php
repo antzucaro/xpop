@@ -41,7 +41,7 @@
           <ul>
         </div>
 
-        <div class="span2">
+        <div class="span2 br">
           <h4>Forums</h4>
           <ul>
             <li><a href="http://forums.xonotic.org/member.php?action=register" title="register for the forums">Register</a></li>
