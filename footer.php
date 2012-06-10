@@ -11,7 +11,7 @@
     ================================================== -->
     <div class="container xonborder" id="footer">
       <div class="row">
-        <div class="span2 br">
+        <div class="span2">
           <h4>Home</h4>
           <ul>
             <li><a href="<?php bloginfo('url'); ?>/team/" title="meet team xonotic">Team Xonotic</a></li>
@@ -22,7 +22,7 @@
           <ul>
         </div>
 
-        <div class="span2 br">
+        <div class="span2">
           <h4>Media</h4>
           <ul>
             <li><a href="<?php bloginfo('url'); ?>/media/" title="view screenshots">Screenshots</a></li>
@@ -31,7 +31,7 @@
           <ul>
         </div>
 
-        <div class="span2 br">
+        <div class="span2">
           <h4>Development</h4>
           <ul>
             <li><a href="http://git.xonotic.org" title="source code">Source code (git)</a></li>
@@ -41,7 +41,7 @@
           <ul>
         </div>
 
-        <div class="span2 br">
+        <div class="span2">
           <h4>Forums</h4>
           <ul>
             <li><a href="http://forums.xonotic.org/member.php?action=register" title="register for the forums">Register</a></li>
@@ -57,6 +57,14 @@
           <li><a href="<?php bloginfo('url'); ?>/wp-admin" title="log in">Login</a></li>
             <li><a href="<?php bloginfo('url'); ?>/site-map" title="go to the site map">Site map</a></li>
           <ul>
+        </div>
+
+        <div class="span2">
+          <h4>Social</h4>
+          <a href="http://www.facebook.com/pages/Xonotic/106450756044750" title="Facebook"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/facebook_32.png"></a>
+          <a href="http://twitter.com/xonotic" title="Twitter"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/twitter_32.png"></a>
+          <a href="http://www.youtube.com/xonotic" title="YouTube"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/youtube_32.png"></a>
+          <a href="http://feeds.feedburner.com/Xonotic" title="RSS"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/rss_32.png"></a>
         </div>
 
       </div> <!-- /row -->
