@@ -512,7 +512,7 @@ h3 small {
 h4,
 h5,
 h6 {
-  font-family: inherit;
+  /*font-family: inherit;*/
   line-height: 18px;
 }
 
