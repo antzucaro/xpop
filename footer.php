@@ -86,22 +86,6 @@
     $(function(){
       $('.dropdown-toggle').dropdown();
       $('#myCarousel').carousel();
-
-      <?php if (is_front_page()): ?>
-          jQuery.getFeed({
-              url: '<?php bloginfo('stylesheet_directory'); ?>/proxy.php?url=http://forums.xonotic.org/syndication.php?limit=10',
-            success: function(feed) {
-
-               var html = '<ul>';
-                for(var i = 0; i < feed.items.length && i < 10; i++) {
-                    var item = feed.items[i];
-                    html += '<li><a href="' + item.link + '">' + item.title + '</a></li>';
-                }
-                html += '</ul>';
-                jQuery('#forumrss').append(html);
-            }
-        });
-    <?php endif; ?>
     });
     </script>
   </body>
