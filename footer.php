@@ -14,11 +14,12 @@
         <div class="span2">
           <h4>Home</h4>
           <ul>
+            <li><a href="<?php bloginfo('url'); ?>/download" title="get the game">Download</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/features" title="view feature list">Features</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/team/blog/" title="read the blog">Blog</a></li>
+            <li><a href="http://stats.xonotic.org" title="see latest game and player statistics">Stats</a></li>
             <li><a href="<?php bloginfo('url'); ?>/team/" title="meet team xonotic">Team Xonotic</a></li>
             <li><a href="<?php bloginfo('url'); ?>/the-game/faq/" title="read the faq">FAQ</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/team/blog/" title="read the blog">Blog</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/team/contact/" title="contact us">Contact</a></li>
-            <li><a href="<?php bloginfo('url'); ?>/links" title="links and sitemap">Links and Site Map</a></li>
           <ul>
         </div>
 
@@ -54,7 +55,8 @@
         <div class="span2">
           <h4>Meta</h4>
           <ul>
-          <li><a href="<?php bloginfo('url'); ?>/wp-admin" title="log in">Login</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/team/contact/" title="contact us">Contact</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/wp-admin" title="log in">Login</a></li>
             <li><a href="<?php bloginfo('url'); ?>/site-map" title="go to the site map">Site map</a></li>
           <ul>
         </div>
