@@ -66,6 +66,16 @@
               <li><a href="http://stats.xonotic.org" title="see latest game and player statistics"><i class="icon-bar-chart"></i> Stats</a></li>
               <li><a href="http://dev.xonotic.org" title="development area"><i class="icon-cogs"></i> Develop</a></li>
             </ul>
+
+            <ul class="nav pull-right">
+              <li>
+                <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>" class="navbar-search">
+                  <input class="search-query span2" type="text" name="s" id="s" placeholder="Search">
+                  <input type="hidden" id="searchsubmit" value="Search" />
+                </form>
+              </li>
+            </ul>
+
           </div><!--/.nav-collapse -->
         </div>
       </div>

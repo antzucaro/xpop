@@ -1397,9 +1397,9 @@ select:focus:required:invalid:focus {
   /* IE7-8 doesn't have border-radius, so don't indent the padding */
 
   margin-bottom: 0;
-  -webkit-border-radius: 14px;
-     -moz-border-radius: 14px;
-          border-radius: 14px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
 }
 
 .form-search input,
@@ -3702,7 +3702,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search {
   position: relative;
   float: left;
-  margin-top: 6px;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -5040,3 +5040,4 @@ a.badge:hover {
   margin-top: 20px;
   text-shadow: 1px 0 #333333;
 }
+#search-terms { color: #843b17; }
