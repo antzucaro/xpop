@@ -5007,8 +5007,8 @@ a.badge:hover {
 .next_post, .previous_post {
   margin-top: 15px;
 }
-.next_post { float: left; }
-.previous_post { float: right; }
+.next_post { float: right; }
+.previous_post { float: left; }
 
 #sidebar h2 {
   font-size: 20px;

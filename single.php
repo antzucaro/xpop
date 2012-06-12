@@ -32,8 +32,8 @@ get_header(); ?>
               <?php the_tags('<span class="label">', '</span>&nbsp;<span class="label">', '</span>'); ?>
             </div>
 
-            <?php previous_post_link('<div class="next"><i class="icon-arrow-left icon-white"></i> %link</div>', 'Previous Post') ?>
-            <?php next_post_link('<div class="previous">%link <i class="icon-arrow-right icon-white"></i></div>', 'Next Post') ?>
+            <?php previous_post_link('<div class="previous_post"><i class="icon-arrow-left icon-white"></i> %link</div>', 'Previous Post') ?>
+            <?php next_post_link('<div class="next_post">%link <i class="icon-arrow-right icon-white"></i></div>', 'Next Post') ?>
           <?php else : ?>
             <h2 class="entry-title">No posts found</h2>
             <div class="entry-content"> <p>Sorry, no posts matched your criteria.</p> </div>
