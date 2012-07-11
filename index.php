@@ -23,7 +23,8 @@ get_header(); ?>
               </div>
 
               <?php the_post_thumbnail(array(150, 150), array('class' => 'alignright')); ?>
-              <?php the_content('Read the rest of this entry &raquo;'); ?>
+              <?php the_excerpt(); ?>
+              <!-- <?php the_content('Read the rest of this entry &raquo;'); ?> -->
 
               <div class="categories">Posted in <?php the_category(','); ?></div>
 
@@ -32,8 +33,8 @@ get_header(); ?>
               </div>
             </div>
           <?php endwhile; ?>
-          <div class="next_post"><?php next_posts_link('&laquo; Older Entries'); ?></div>
-          <div class="previous_post"><?php previous_posts_link('Newer Entries &raquo;'); ?></div>
+          <div class="previous_post"><?php next_posts_link('&laquo; Older Entries'); ?></div>
+          <div class="next_post"><?php previous_posts_link('Newer Entries &raquo;'); ?></div>
 
         <?php else : ?>
             <h2 class="entry-title">Not Found</h2>
