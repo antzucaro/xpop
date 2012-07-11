@@ -67,6 +67,15 @@
           <a href="http://twitter.com/xonotic" title="Twitter"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/twitter_32.png"></a>
           <a href="http://www.youtube.com/xonotic" title="YouTube"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/youtube_32.png"></a>
           <a href="http://feeds.feedburner.com/Xonotic" title="RSS"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/social_networking/rss_32.png"></a>
+          <br />
+          <p></p>
+          <h4>Sponsors</h4>
+          <ul>
+            <li><a href="http://www.netground.nl/" title="Netground">Netground</a></li>
+            <li><a href="http://www.bitmissile.com/" title="bitmissile">Bitmissile</a></li>
+            <li><a href="http://www.freegamealliance.com/" title="Free Game Alliance">Free Game Alliance</a></li>
+          </ul>
+
         </div>
 
       </div> <!-- /row -->
