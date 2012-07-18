@@ -56,7 +56,8 @@
           <div class="nav-collapse">
             <ul class="nav pull-left">
               <?php if (!is_front_page()): ?>
-              <a class="brand" title="go back to the home page" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/logo_nav_small.png"></a>
+              <a class="brand" title="go back to the home page" href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/xon_icon_mono.png"></a>
+              <li><a href="<?php bloginfo('url'); ?>" title="go back to the home page"> Home</a></li>
               <?php endif; ?>
               <li><a href="<?php bloginfo('url'); ?>/download" title="get the game"><i class="icon-download"></i> Download</a></li>
               <li><a href="<?php bloginfo('url'); ?>/features" title="view feature list"><i class="icon-list"></i> Features</a></li>
