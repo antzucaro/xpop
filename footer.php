@@ -94,7 +94,7 @@
     <script>
     $(function(){
       $('.dropdown-toggle').dropdown();
-      $('#myCarousel').carousel();
+      $('#featureSlider').carousel();
     });
     </script>
   </body>
